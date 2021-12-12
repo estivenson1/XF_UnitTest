@@ -17,7 +17,7 @@ namespace XF_UnitTest.XUnit
         {
             var res= login.Suma(a:12,b:13);
 
-            Assert.Equal("24", res.ToString());
+            Assert.Equal("25", res.ToString());
         }
     }
 }
